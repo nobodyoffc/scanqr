@@ -1,0 +1,35 @@
+/* Buttons */
+"scan" = "Scan";
+"make" = "Make";
+"clear" = "Clear";
+"copy" = "Copy";
+"gallery" = "Gallery";
+"save" = "Save";
+"ok" = "OK";
+"cancel" = "Cancel";
+"return_text" = "Return";
+"done" = "Done";
+
+/* QR flow */
+"menu_qr_code" = "QR Code";
+"qr_code" = "QR Code";
+"scan_qr_code" = "Scan QR Code";
+"make_qr_code" = "Make QR Code";
+"error_creating_qr" = "No text to create QR code";
+"error_saving_qr" = "Error saving QR code";
+"qr_saved_count" = "%d QR codes saved";
+
+/* Image / scan errors */
+"cannot_open_image" = "Cannot open image";
+"cannot_decode_image" = "Cannot decode image";
+"retry_after_authorization" = "Failed. Retry after authorization";
+"camera_not_found" = "No camera found on this Mac";
+"camera_session_setup_failed" = "Failed to start camera session";
+
+/* Permissions */
+"permission_camera_rationale" = "Camera permission is needed for QR code scanning";
+
+/* Other */
+"copied_to_clipboard" = "Copied to clipboard";
+"open_system_settings" = "Open System Settings";
+"do_affair" = "Do affair";

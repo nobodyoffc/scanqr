@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA00000000000000000A0001 /* ScanQRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A0001 /* ScanQRApp.swift */; };
+		BA00000000000000000A0002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A0002 /* AppDelegate.swift */; };
+		BA00000000000000000A0003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A0003 /* ContentView.swift */; };
+		BA00000000000000000A0004 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A0004 /* ScannerView.swift */; };
+		BA00000000000000000A0005 /* QRPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A0005 /* QRPagerView.swift */; };
+		BA00000000000000000A0006 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A0006 /* ToastView.swift */; };
+		BA00000000000000000A0007 /* QrViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A0007 /* QrViewModel.swift */; };
+		BA00000000000000000A0008 /* CameraScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A0008 /* CameraScanner.swift */; };
+		BA00000000000000000A0009 /* QRGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A0009 /* QRGenerator.swift */; };
+		BA00000000000000000A000A /* QRImageDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A000A /* QRImageDecoder.swift */; };
+		BA00000000000000000A000B /* Clipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A000B /* Clipboard.swift */; };
+		BA00000000000000000A000C /* QRFileSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A000C /* QRFileSaver.swift */; };
+		BA00000000000000000A000D /* ReturnMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A000D /* ReturnMode.swift */; };
+		BA00000000000000000A000E /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A000E /* Localization.swift */; };
+		BA00000000000000000A000F /* AffairStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A000F /* AffairStub.swift */; };
+		BA00000000000000000A0010 /* QrSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A0010 /* QrSegment.swift */; };
+		BA00000000000000000A0022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A0022 /* Assets.xcassets */; };
+		BA00000000000000000A0024 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A0024 /* Localizable.strings */; };
+		BA00000000000000000A0030 /* QRGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A0030 /* QRGeneratorTests.swift */; };
+		BA00000000000000000A0031 /* QRImageDecoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000A0031 /* QRImageDecoderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC00000000000000000C0018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA00000000000000000A0001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB00000000000000000B0010;
+			remoteInfo = ScanQR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB00000000000000000B0017 /* ScanQR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanQR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC00000000000000000C0016 /* ScanQRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanQRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA00000000000000000A0001 /* ScanQRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRApp.swift; sourceTree = "<group>"; };
+		FA00000000000000000A0002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA00000000000000000A0003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA00000000000000000A0004 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		FA00000000000000000A0005 /* QRPagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRPagerView.swift; sourceTree = "<group>"; };
+		FA00000000000000000A0006 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		FA00000000000000000A0007 /* QrViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrViewModel.swift; sourceTree = "<group>"; };
+		FA00000000000000000A0008 /* CameraScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScanner.swift; sourceTree = "<group>"; };
+		FA00000000000000000A0009 /* QRGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRGenerator.swift; sourceTree = "<group>"; };
+		FA00000000000000000A000A /* QRImageDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRImageDecoder.swift; sourceTree = "<group>"; };
+		FA00000000000000000A000B /* Clipboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clipboard.swift; sourceTree = "<group>"; };
+		FA00000000000000000A000C /* QRFileSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRFileSaver.swift; sourceTree = "<group>"; };
+		FA00000000000000000A000D /* ReturnMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnMode.swift; sourceTree = "<group>"; };
+		FA00000000000000000A000E /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		FA00000000000000000A000F /* AffairStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffairStub.swift; sourceTree = "<group>"; };
+		FA00000000000000000A0010 /* QrSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrSegment.swift; sourceTree = "<group>"; };
+		FA00000000000000000A0020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA00000000000000000A0021 /* ScanQR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScanQR.entitlements; sourceTree = "<group>"; };
+		FA00000000000000000A0022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA00000000000000000A0023 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FA00000000000000000A0030 /* QRGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRGeneratorTests.swift; sourceTree = "<group>"; };
+		FA00000000000000000A0031 /* QRImageDecoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRImageDecoderTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB00000000000000000B0016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC00000000000000000C0015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA00000000000000000A0010 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000A0012 /* ScanQR */,
+				AA00000000000000000A0019 /* ScanQRTests */,
+				AA00000000000000000A0011 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA00000000000000000A0011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB00000000000000000B0017 /* ScanQR.app */,
+				CC00000000000000000C0016 /* ScanQRTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA00000000000000000A0012 /* ScanQR */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000A0013 /* App */,
+				AA00000000000000000A0014 /* Views */,
+				AA00000000000000000A0015 /* ViewModels */,
+				AA00000000000000000A0016 /* Services */,
+				AA00000000000000000A0017 /* Models */,
+				AA00000000000000000A0018 /* Resources */,
+			);
+			path = ScanQR;
+			sourceTree = "<group>";
+		};
+		AA00000000000000000A0013 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FA00000000000000000A0001 /* ScanQRApp.swift */,
+				FA00000000000000000A0002 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AA00000000000000000A0014 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA00000000000000000A0003 /* ContentView.swift */,
+				FA00000000000000000A0004 /* ScannerView.swift */,
+				FA00000000000000000A0005 /* QRPagerView.swift */,
+				FA00000000000000000A0006 /* ToastView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA00000000000000000A0015 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA00000000000000000A0007 /* QrViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AA00000000000000000A0016 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FA00000000000000000A0008 /* CameraScanner.swift */,
+				FA00000000000000000A0009 /* QRGenerator.swift */,
+				FA00000000000000000A000A /* QRImageDecoder.swift */,
+				FA00000000000000000A000B /* Clipboard.swift */,
+				FA00000000000000000A000C /* QRFileSaver.swift */,
+				FA00000000000000000A000D /* ReturnMode.swift */,
+				FA00000000000000000A000E /* Localization.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA00000000000000000A0017 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA00000000000000000A000F /* AffairStub.swift */,
+				FA00000000000000000A0010 /* QrSegment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA00000000000000000A0018 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA00000000000000000A0020 /* Info.plist */,
+				FA00000000000000000A0021 /* ScanQR.entitlements */,
+				FA00000000000000000A0022 /* Assets.xcassets */,
+				FA00000000000000000A0024 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA00000000000000000A0019 /* ScanQRTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA00000000000000000A0030 /* QRGeneratorTests.swift */,
+				FA00000000000000000A0031 /* QRImageDecoderTests.swift */,
+			);
+			path = ScanQRTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB00000000000000000B0010 /* ScanQR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB00000000000000000B0011 /* Build configuration list for PBXNativeTarget "ScanQR" */;
+			buildPhases = (
+				BB00000000000000000B0014 /* Sources */,
+				BB00000000000000000B0015 /* Resources */,
+				BB00000000000000000B0016 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanQR;
+			productName = ScanQR;
+			productReference = BB00000000000000000B0017 /* ScanQR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC00000000000000000C0010 /* ScanQRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC00000000000000000C0011 /* Build configuration list for PBXNativeTarget "ScanQRTests" */;
+			buildPhases = (
+				CC00000000000000000C0014 /* Sources */,
+				CC00000000000000000C0015 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC00000000000000000C0017 /* PBXTargetDependency */,
+			);
+			name = ScanQRTests;
+			productName = ScanQRTests;
+			productReference = CC00000000000000000C0016 /* ScanQRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA00000000000000000A0001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BB00000000000000000B0010 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CC00000000000000000C0010 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BB00000000000000000B0010;
+					};
+				};
+			};
+			buildConfigurationList = AA00000000000000000A0002 /* Build configuration list for PBXProject "ScanQR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA00000000000000000A0010;
+			productRefGroup = AA00000000000000000A0011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB00000000000000000B0010 /* ScanQR */,
+				CC00000000000000000C0010 /* ScanQRTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB00000000000000000B0015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA00000000000000000A0022 /* Assets.xcassets in Resources */,
+				BA00000000000000000A0024 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB00000000000000000B0014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA00000000000000000A0001 /* ScanQRApp.swift in Sources */,
+				BA00000000000000000A0002 /* AppDelegate.swift in Sources */,
+				BA00000000000000000A0003 /* ContentView.swift in Sources */,
+				BA00000000000000000A0004 /* ScannerView.swift in Sources */,
+				BA00000000000000000A0005 /* QRPagerView.swift in Sources */,
+				BA00000000000000000A0006 /* ToastView.swift in Sources */,
+				BA00000000000000000A0007 /* QrViewModel.swift in Sources */,
+				BA00000000000000000A0008 /* CameraScanner.swift in Sources */,
+				BA00000000000000000A0009 /* QRGenerator.swift in Sources */,
+				BA00000000000000000A000A /* QRImageDecoder.swift in Sources */,
+				BA00000000000000000A000B /* Clipboard.swift in Sources */,
+				BA00000000000000000A000C /* QRFileSaver.swift in Sources */,
+				BA00000000000000000A000D /* ReturnMode.swift in Sources */,
+				BA00000000000000000A000E /* Localization.swift in Sources */,
+				BA00000000000000000A000F /* AffairStub.swift in Sources */,
+				BA00000000000000000A0010 /* QrSegment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC00000000000000000C0014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA00000000000000000A0030 /* QRGeneratorTests.swift in Sources */,
+				BA00000000000000000A0031 /* QRImageDecoderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC00000000000000000C0017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB00000000000000000B0010 /* ScanQR */;
+			targetProxy = CC00000000000000000C0018 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA00000000000000000A0024 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA00000000000000000A0023 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA00000000000000000A0003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA00000000000000000A0004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BB00000000000000000B0012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScanQR/Resources/ScanQR.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ScanQR/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scanqr.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BB00000000000000000B0013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScanQR/Resources/ScanQR.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ScanQR/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scanqr.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CC00000000000000000C0012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scanqr.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScanQR.app/Contents/MacOS/ScanQR";
+			};
+			name = Debug;
+		};
+		CC00000000000000000C0013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scanqr.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScanQR.app/Contents/MacOS/ScanQR";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA00000000000000000A0002 /* Build configuration list for PBXProject "ScanQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA00000000000000000A0003 /* Debug */,
+				AA00000000000000000A0004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB00000000000000000B0011 /* Build configuration list for PBXNativeTarget "ScanQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB00000000000000000B0012 /* Debug */,
+				BB00000000000000000B0013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC00000000000000000C0011 /* Build configuration list for PBXNativeTarget "ScanQRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC00000000000000000C0012 /* Debug */,
+				CC00000000000000000C0013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA00000000000000000A0001 /* Project object */;
+}

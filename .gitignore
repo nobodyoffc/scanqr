@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Build output
+.build/
+.dist/
+.release/
+build/
+DerivedData/
+
+# Xcode user state
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+ScanQR.xcodeproj/project.xcworkspace/xcuserdata/
+ScanQR.xcodeproj/xcuserdata/
+
+# Claude Code local state
+.claude/settings.local.json
