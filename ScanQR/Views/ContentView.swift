@@ -89,6 +89,11 @@ struct ContentView: View {
             }
         }
         .frame(minHeight: 280, idealHeight: 320)
+        .contentShape(RoundedRectangle(cornerRadius: 16))
+        .onTapGesture {
+            textFocused = false
+            Task { await vm.toggleScanning() }
+        }
     }
 
     @ViewBuilder
